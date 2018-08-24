@@ -20,7 +20,7 @@ I just used the defaults, even though I tend to replace the forward slashes
 
 ## From Vue.js to Quasar Framework
 
-I'm a big fan of the [Quasar Framework](www.quasar-framework.org) which is a 
+I'm a big fan of the [Quasar Framework](https://www.quasar-framework.org) which is a 
 Vue.js implementation of Material UI. If you don't know it I urge you to go 
 over to their website and have a look. The lead developer behind the framework 
 is really dedicating a lot of his time and efforts to this framework and it is 
