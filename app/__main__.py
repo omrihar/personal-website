@@ -32,14 +32,14 @@ def serve_api():
 def serve_client():
     """ Run Vue Development Server"""
     click.echo('Starting Vue dev server...')
-    cmd = 'npm run serve'
+    cmd = 'quasar dev'
     _bash(cmd, cwd=CLIENT_DIR)
 
 
 @cli.command(help='Build Vue Application', name='build')
 def build():
     """ Builds Vue Application """
-    cmd = 'npm run build'
+    cmd = 'quasar build'
     _bash(cmd, cwd=CLIENT_DIR)
     click.echo('Build completed')
 
