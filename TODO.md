@@ -25,7 +25,7 @@
 
 4. Blog posts.
 
-5. Personal book / movie recommendations.
+5. Book / Movie / Podcast recommendations
 
 ### Types of content necessary to support this
 
@@ -59,3 +59,11 @@
        [https://github.com/goodwordalchemy/flask-jekyll](https://github.com/goodwordalchemy/flask-jekyll)
 
 ## TODOs
+
+- [ ] Design the front-end.
+
+- [ ] Plan the architecture for the backend.
+
+- [ ] Create the content.
+
+- [ ] Repeat.
