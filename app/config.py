@@ -8,7 +8,7 @@ class Config(object):
     DEBUG = False
     TESTING = False
     BASE_DIR = os.path.dirname(__file__)
-    CLIENT_DIR = os.path.join(BASE_DIR, 'client', 'vue_app')
+    CLIENT_DIR = os.path.join(BASE_DIR, 'client', 'frontend')
 
     if not os.path.exists(CLIENT_DIR):
         raise Exception(
