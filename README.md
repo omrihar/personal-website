@@ -33,3 +33,17 @@ something like `quasar init frontend` and changing some references to
 `vue_client` in the Flask app.
 
 Now that I have a working quasar app, it's time to design the website...
+
+## Choosing a color scheme
+
+I tried to find a good color scheme that will make the content pop and the 
+website fall in the background. Since I'm not a designer I decided to browse 
+around the web to find a nice color combination that will work for me. I really 
+like the feeling of brown, earthy colors and tried to find a good color palette 
+to reflect that preference. There are many websites that offer a long list 
+(typically 25 or 50) of color schemes and knowing in which direction I want to 
+take the website helped to narrow it down to only one or two from 50. I decided 
+to simply try one out, build a simple layout using these colors and if it 
+doesn't work, change the colors. Since they are stored in `stylus` variables 
+it's not very difficult to replace later on.
+ 
