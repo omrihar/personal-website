@@ -1,4 +1,4 @@
-# Ideas and DODOS for the website
+# Ideas and TODOS for the website
 
 ## Ideas
 
