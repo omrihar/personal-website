@@ -47,3 +47,8 @@ to simply try one out, build a simple layout using these colors and if it
 doesn't work, change the colors. Since they are stored in `stylus` variables 
 it's not very difficult to replace later on.
  
+ Since I'm not a designer and coming up with a complete concept of the layout 
+ as I want it proved to be difficult, I decided to start working on the content 
+ and later on incrementally improve the design as well.
+
+
