@@ -77,4 +77,5 @@ second approach would be to simply include an IFrame in the body.
 | `type` | `'blog'`, `'project'`, tbd |
 | `section` | In which section of the website should this appear? |
 | `tags` | Relevant tags |
- 
+| `resources` | A list of relevant resources such as links, articles, repos, 
+etc... |
