@@ -27,6 +27,12 @@
 
 5. Book / Movie / Podcast recommendations
 
+6. Concepts - A collection of one or more blog posts explaining a certain idea 
+   or concept, together with resources divided into categories (beginner / 
+   advanced, optional), etc... Here I want to have a specialized component that 
+   with display a sidebar with these resource links that can then either lead 
+   to an outside website or an internal page or resource.
+
 ### Types of content necessary to support this
 
 - [ ] Text and images (markdown / html)

@@ -1,18 +1,19 @@
 <template lang="pug">
-q-page.opage(padding).
-  here is some content
-
+#maindrawer
+  span Hello World
 </template>
 
 <script>
 export default {
-  name: 'Index'
+  name: 'ODrawer',
+  data () {
+    return {}
+  }
 }
 </script>
 
 <style lang="stylus">
 @import '~variables'
-.opage
-  padding 10px
-  width: 80%
+#maindrawer
+  background-color: $secondary
 </style>
