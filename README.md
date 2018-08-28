@@ -18,10 +18,10 @@ I just used the defaults, even though I tend to replace the forward slashes
 [1]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 
-## From Vue.js to Quasar Framework
+## From Vue.is to Quasar Framework
 
 I'm a big fan of the [Quasar Framework](https://www.quasar-framework.org) which is a 
-Vue.js implementation of Material UI. If you don't know it I urge you to go 
+Vie.as implementation of Material UI. If you don't know it I urge you to go 
 over to their website and have a look. The lead developer behind the framework 
 is really dedicating a lot of his time and efforts to this framework and it is 
 rapidly growing, both in terms of capabilities as well as community.
@@ -51,4 +51,30 @@ it's not very difficult to replace later on.
  as I want it proved to be difficult, I decided to start working on the content 
  and later on incrementally improve the design as well.
 
+## Content backend
 
+The next step is to set up the back and front end to display content. I want 
+something that simulates `jekyll` in the ease of publishing new content - which 
+means I want a format such as markdown with YAML headers, that will be 
+converted to content the front-end can display. 
+
+For this end, I want the API to discover files in a predefined directory of the 
+website, serve them based on the content of the YAML header, and display them 
+on the client side. One obvious field in the YAML header will be whether it is 
+a draft or published material, another is type (blog post, project description, 
+resource, cv entry, etc...). Ideally the content of the files will be able to 
+handle complex things such as embedding a small JavaScript application. A 
+second approach would be to simply include an IFrame in the body. 
+
+### YAML specification
+
+| Field | Description |
+| ----- | ----------- |
+| `title` | Title of the content. |
+| `date` | Publication date. |
+| `subtitle` | If relevant, a subtitle |
+| `draft` | Is this in draft status, or published |
+| `type` | `'blog'`, `'project'`, tbd |
+| `section` | In which section of the website should this appear? |
+| `tags` | Relevant tags |
+ 
