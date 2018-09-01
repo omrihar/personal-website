@@ -17,7 +17,8 @@ q-layout(id="main")
     //-o-drawer
 
   q-page-container
-    router-view
+    .mystyle
+      router-view
 </template>
 
 <script>
@@ -43,10 +44,22 @@ export default {
 #main
    background-color: $secondary
 
-.navContainer
-  /*border: 3px solid $primary*/
-  /*border-radius: 5px*/
-  padding 10px
-  /*width: 75%*/
-  /*background-color: $tertiary*/
+.mystyle
+  background-color: white
+  max-width: 100rem
+  min-height: 40rem
+  margin: 0 auto
+  padding: 5rem
+
+p
+  font-size: 28px
+  padding: 1rem
+
+p a
+  color: green
+  text-decoration: none
+
+.mystyle p a:hover
+  text-decoration: underline
+
 </style>
